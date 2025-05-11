@@ -1,1 +1,1 @@
-# adnanrnaushahi-Digital.Physiotherapy.Platform
+# Digital.Physiotherapy.Platform
