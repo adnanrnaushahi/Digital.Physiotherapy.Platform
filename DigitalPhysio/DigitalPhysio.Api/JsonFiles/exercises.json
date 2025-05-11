@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Shoulder Rotation",
+        "description": "Rotate shoulders forward and backward with arms at sides",
+        "repetitionCount": 10,
+        "sets": 3
+    },
+    {
+        "id": 2,
+        "name": "Knee Bends",
+        "description": "Gentle knee bends while standing, 60 degree angle",
+        "repetitionCount": 8,
+        "sets": 2
+    },
+    {
+        "id": 3,
+        "name": "Neck Stretches",
+        "description": "Side to side neck stretches, 20 second hold each side",
+        "repetitionCount": 5,
+        "sets": 2
+    },
+    {
+        "id": 4,
+        "name": "Ankle Circles",
+        "description": "Rotate ankles clockwise and counterclockwise while seated",
+        "repetitionCount": 10,
+        "sets": 2
+    },
+    {
+        "id": 5,
+        "name": "Wrist Flexor Stretch",
+        "description": "Extend arm, pull fingers back gently with opposite hand",
+        "repetitionCount": 6,
+        "sets": 3
+    }
+]
