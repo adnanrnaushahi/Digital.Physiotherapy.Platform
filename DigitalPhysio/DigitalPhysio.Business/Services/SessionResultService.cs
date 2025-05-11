@@ -41,8 +41,6 @@ namespace DigitalPhysio.Business.Services
                         PrescriptionId = result.PrescriptionId,
                         PatientName = patient?.Name ?? "Unknown",
                         SessionDate = result.SessionDate,
-                        CompletionPercentage = result.CompletionPercentage,
-                        AccuracyScore = result.AccuracyScore,
                         Notes = result.Notes,
                         ExerciseCompletion = result.ExerciseCompletion
                     });
@@ -82,8 +80,6 @@ namespace DigitalPhysio.Business.Services
                     PrescriptionId = result.PrescriptionId,
                     PatientName = patient?.Name ?? "Unknown",
                     SessionDate = result.SessionDate,
-                    CompletionPercentage = result.CompletionPercentage,
-                    AccuracyScore = result.AccuracyScore,
                     Notes = result.Notes,
                     ExerciseCompletion = result.ExerciseCompletion
                 };
@@ -114,8 +110,6 @@ namespace DigitalPhysio.Business.Services
                     PrescriptionId = r.PrescriptionId,
                     PatientName = patient?.Name ?? "Unknown",
                     SessionDate = r.SessionDate,
-                    CompletionPercentage = r.CompletionPercentage,
-                    AccuracyScore = r.AccuracyScore,
                     Notes = r.Notes,
                     ExerciseCompletion = r.ExerciseCompletion
                 });
@@ -145,8 +139,6 @@ namespace DigitalPhysio.Business.Services
                 {
                     PrescriptionId = createDto.PrescriptionId,
                     SessionDate = createDto.SessionDate,
-                    CompletionPercentage = createDto.CompletionPercentage,
-                    AccuracyScore = createDto.AccuracyScore,
                     Notes = createDto.Notes,
                     ExerciseCompletion = createDto.ExerciseCompletion
                 };
@@ -160,8 +152,6 @@ namespace DigitalPhysio.Business.Services
                     PrescriptionId = createdResult.PrescriptionId,
                     PatientName = patient?.Name ?? "Unknown",
                     SessionDate = createdResult.SessionDate,
-                    CompletionPercentage = createdResult.CompletionPercentage,
-                    AccuracyScore = createdResult.AccuracyScore,
                     Notes = createdResult.Notes,
                     ExerciseCompletion = createdResult.ExerciseCompletion
                 };

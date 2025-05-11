@@ -13,14 +13,8 @@ namespace DigitalPhysio.Domain.Models
         public int PrescriptionId { get; set; }
         public Prescription Prescription { get; set; } = null!;
         public DateTime SessionDate { get; set; }
-        public int CompletionPercentage { get; set; }
-        public int AccuracyScore { get; set; }
         public string Notes { get; set; } = string.Empty;
-
-        // For database storage
         public string ExerciseCompletionJson { get; set; } = string.Empty;
-
-        // Helper property (not mapped to database)
         public Dictionary<string, int> ExerciseCompletion
         {
             get => string.IsNullOrEmpty(ExerciseCompletionJson)

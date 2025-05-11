@@ -3,8 +3,6 @@
         "id": 1,
         "prescriptionId": 1,
         "sessionDate": "2025-05-03T09:15:00",
-        "completionPercentage": 85,
-        "accuracyScore": 78,
         "notes": "Patient reported mild discomfort during neck stretches",
         "exerciseCompletion": {
             "Shoulder Rotation": 90,
@@ -15,8 +13,6 @@
         "id": 2,
         "prescriptionId": 1,
         "sessionDate": "2025-05-05T10:30:00",
-        "completionPercentage": 92,
-        "accuracyScore": 85,
         "notes": "Improvement in range of motion, no discomfort reported",
         "exerciseCompletion": {
             "Shoulder Rotation": 95,
@@ -27,8 +23,6 @@
         "id": 3,
         "prescriptionId": 2,
         "sessionDate": "2025-05-07T15:45:00",
-        "completionPercentage": 75,
-        "accuracyScore": 70,
         "notes": "Patient struggled with ankle circles, needs additional guidance",
         "exerciseCompletion": {
             "Knee Bends": 85,
@@ -39,8 +33,6 @@
         "id": 4,
         "prescriptionId": 3,
         "sessionDate": "2025-05-01T08:00:00",
-        "completionPercentage": 88,
-        "accuracyScore": 82,
         "notes": "Good form on all exercises, patient reports feeling stronger",
         "exerciseCompletion": {
             "Shoulder Rotation": 92,
@@ -52,8 +44,6 @@
         "id": 5,
         "prescriptionId": 5,
         "sessionDate": "2025-05-08T17:30:00",
-        "completionPercentage": 95,
-        "accuracyScore": 90,
         "notes": "Excellent progress with comprehensive program, patient highly motivated",
         "exerciseCompletion": {
             "Shoulder Rotation": 98,

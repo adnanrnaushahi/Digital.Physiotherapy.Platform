@@ -157,9 +157,6 @@ namespace DigitalPhysio.Business.Services
                 _logger.LogError(ex, "An error occurred while creating a prescription.");
                 throw;
             }
-
-
-
         }
     }
 }

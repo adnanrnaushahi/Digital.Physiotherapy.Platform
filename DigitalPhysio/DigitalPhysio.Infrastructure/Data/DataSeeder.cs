@@ -89,7 +89,6 @@ namespace DigitalPhysio.Infrastructure
                             }
                         }
 
-                        // Save again to generate Prescription IDs
                         await _context.SaveChangesAsync();
 
                         // Seed Session Results
@@ -105,8 +104,6 @@ namespace DigitalPhysio.Infrastructure
                                     Id = dto.Id,
                                     PrescriptionId = dto.PrescriptionId,
                                     SessionDate = dto.SessionDate,
-                                    CompletionPercentage = dto.CompletionPercentage,
-                                    AccuracyScore = dto.AccuracyScore,
                                     Notes = dto.Notes
                                 };
 
@@ -117,7 +114,6 @@ namespace DigitalPhysio.Infrastructure
                             }
                         }
 
-                        // Final save
                         await _context.SaveChangesAsync();
                     }
                     catch (Exception ex)
@@ -126,8 +122,6 @@ namespace DigitalPhysio.Infrastructure
                     }
                 }
             }
-
-            // DTOs for deserialization
             private class PrescriptionDto
             {
                 public int Id { get; set; }
@@ -142,8 +136,6 @@ namespace DigitalPhysio.Infrastructure
                 public int Id { get; set; }
                 public int PrescriptionId { get; set; }
                 public DateTime SessionDate { get; set; }
-                public int CompletionPercentage { get; set; }
-                public int AccuracyScore { get; set; }
                 public string Notes { get; set; } = string.Empty;
                 public Dictionary<string, int> ExerciseCompletion { get; set; } = new Dictionary<string, int>();
             }
